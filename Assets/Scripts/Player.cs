@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     {
         MovePlayer();
         RotateBody();
-        
+        RotateFeet();
     }
 
     private void FixedUpdate()
@@ -60,8 +60,19 @@ public class Player : MonoBehaviour
         float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         topTorso.transform.rotation = Quaternion.Euler(0, 0, rotZ);
     }
+    void RotateFeet()
+    {
+        if (isMoving)
+        {
+            botTorso.SetBool("isMoving", isMoving);
+        }
+        else
+        {
+            botTorso.SetBool("isMoving", isMoving);
 
-
+        }
+    }
+    
 
 
 }
