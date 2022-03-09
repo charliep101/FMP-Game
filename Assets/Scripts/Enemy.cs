@@ -13,14 +13,14 @@ public class Enemy : MonoBehaviour
 
     public int rewardOnDeath = 10;
 
-    GameObject player;
+    GameObject Player;
     Rigidbody2D rb;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("PLayer");
+        Player = GameObject.FindGameObjectWithTag("PLayer");
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour
 
     void FollowPlayer()
     {
-        transform.up = player.transform.position - transform.position;
+        transform.up = Player.transform.position - transform.position;
         rb.AddForce(transform.up * movSpeed);
     }
 
