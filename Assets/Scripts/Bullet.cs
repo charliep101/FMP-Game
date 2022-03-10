@@ -23,15 +23,18 @@ public class Bullet : MonoBehaviour
         transform.position += transform.right * Time.deltaTime * speed;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        if(collision.tag == "Enemy")
+        if (col.gameObject.tag == "Enemy")
         {
-            Instantiate(hitFX, transform.position, transform.rotation);
-
-            collision.GetComponent<Health>().TakeDamage(damage);
-
-            Destroy(gameObject);
+            Destroy(col.gameObject);
+        }
+        else if(col.gameObject.tag == "Wall")
+        {
+            Destroy(col.gameObject);
         }
     }
+
+
 }
