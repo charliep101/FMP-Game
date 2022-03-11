@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 346231785}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55806,6 +55806,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753146938314845884, guid: 9d07c85a5534418479617a37b52325b2,
         type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753146938314845884, guid: 9d07c85a5534418479617a37b52325b2,
+        type: 3}
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
@@ -62033,7 +62038,7 @@ GameObject:
   - component: {fileID: 1734942129}
   m_Layer: 0
   m_Name: Enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62468,6 +62473,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753146938314845884, guid: 9d07c85a5534418479617a37b52325b2,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3753146938314845884, guid: 9d07c85a5534418479617a37b52325b2,
         type: 3}
