@@ -5,65 +5,13 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
 
-    public float maxHealth = 100;
-    public float health = 100;
-
-    public float regen = 0;
-    public float regenRate = 1;
-
-    public bool isDead = false;
-
-    Animator animator;
-
-    
-
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        health = maxHealth;
-        animator = GetComponent<Animator>();
-        StartCoroutine(HpRegen());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if(health < 0 && !isDead)
+        if (col.gameObject.tag == "Bullet")
         {
-            isDead = true;
+            Destroy(col.gameObject);
         }
-        if(gameObject.tag == "Player")
-        {
 
-        }
-        else
-        {
-            animator.Play("Death");
-        }
-    }
-
-    void Die()
-    {
-        Destroy(gameObject);
-    }
-
-    IEnumerator HpRegen()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(regenRate);
-            if (health < maxHealth)
-            {
-                health += regen;
-            }
-        }
     }
 
 }

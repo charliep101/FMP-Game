@@ -30,10 +30,7 @@ public class Bullet : MonoBehaviour
         {
             Destroy(col.gameObject);
         }
-        else if(col.gameObject.tag == "Wall")
-        {
-            Destroy(col.gameObject);
-        }
+      
     }
 
 
