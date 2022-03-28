@@ -14,6 +14,8 @@ public class Weapon : MonoBehaviour
     private Player player;
     float timeToFire = 0;
 
+    [SerializeField] private AudioSource shootSoundEffect;
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +30,7 @@ public class Weapon : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                shootSoundEffect.Play();
                 Fire();
             }
             else
