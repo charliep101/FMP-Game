@@ -55068,6 +55068,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d4bbb719de37140bbba03d12ada1af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: {fileID: 242280565}
+  totalhealthBar: {fileID: 995126682}
+  currenthealthBar: {fileID: 436684727}
 --- !u!1001 &516154378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55153,6 +55156,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1677030345}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &599354220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599354210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49c75da6adf85045b27aba3a163db9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1001 &627762211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59068,6 +59084,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 516154378}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1511125208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511125198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49c75da6adf85045b27aba3a163db9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1001 &1677030345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59492,5 +59521,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1157895250479497313, guid: 03b2c2e4d9e51b54c950334b8cb9c186, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 03b2c2e4d9e51b54c950334b8cb9c186, type: 3}
