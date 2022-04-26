@@ -172,4 +172,7 @@ MonoBehaviour:
   damage: 10
   speed: 50
   timer: 1
+  score: 0
   hitFX: {fileID: 8410457013382075721, guid: dd94bbbd328c75d46bc59e07c9c8a857, type: 3}
+  scoreText: {fileID: 3279262902174165029, guid: 4d1354e48aadd9d42a4a3746cc350759,
+    type: 3}

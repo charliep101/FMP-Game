@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Bullet : MonoBehaviour
 {
     public int damage = 10;
@@ -9,18 +10,25 @@ public class Bullet : MonoBehaviour
 
     public int timer = 1;
 
+    public int score = 0;
+
     public GameObject hitFX;
+
+    
 
     // Start is called before the first frame update
     void Start()
     {
+        
         Destroy(gameObject, timer);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position += transform.right * Time.deltaTime * speed;
+       
     }
 
 
@@ -29,6 +37,7 @@ public class Bullet : MonoBehaviour
         if (col.gameObject.tag == "Enemy")
         {
             Destroy(col.gameObject);
+           
         }
       
     }
