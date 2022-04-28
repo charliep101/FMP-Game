@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/HTP Menu.unity
     guid: 713c146bf7504874cb09b50144c2df2f
   - enabled: 1
+    path: Assets/Scenes/Character Select.unity
+    guid: 18d84d2453a967846b2751ae4f4fbbcc
+  - enabled: 1
+    path: Assets/Scenes/Map Menu 1.unity
+    guid: 1d16b017d1e88954e82dc6cf7f474df6
+  - enabled: 1
+    path: Assets/Scenes/Map Menu 2.unity
+    guid: 5d68f688030579e4fa0fde998d851c8b
+  - enabled: 1
     path: Assets/Scenes/First Map.unity
     guid: 049e76ee42c15864bad73bec266d6fad
   - enabled: 1

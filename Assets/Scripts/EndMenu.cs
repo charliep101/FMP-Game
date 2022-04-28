@@ -8,6 +8,15 @@ public class EndMenu : MonoBehaviour
     public void PlayAgain()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        Scoring.totalScore = Scoring.totalScore = 0;
+
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 9);
+        Scoring.totalScore = Scoring.totalScore = 0;
+
     }
 
 

@@ -26,8 +26,8 @@ public class PHealth : MonoBehaviour
         {
             if (!dead)
             {
-                SceneManager.LoadScene(5);
-                Scoring.totalScore = 0;
+                SceneManager.LoadScene(9);
+                
             }
         }
     }
