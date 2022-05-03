@@ -35,4 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Death Screen.unity
     guid: b19fb624fc95bed478ac8f48547b68f5
+  - enabled: 1
+    path: Assets/Scenes/DS2.unity
+    guid: 876609e74ce5f2a4f9a0c627f773a5e8
+  - enabled: 1
+    path: Assets/Scenes/DS3.unity
+    guid: e97f99e303bd318449dd9df408bac800
+  - enabled: 1
+    path: Assets/Scenes/DS4.unity
+    guid: 724d295ed77de9f44a3015f65fb24ffb
   m_configObjects: {}
