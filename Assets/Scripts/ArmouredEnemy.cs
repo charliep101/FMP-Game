@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ArmouredEnemy : MonoBehaviour
 {
-    [SerializeField] private float eHealth = 5;
+    [SerializeField] public float eHealth = 5;
 
     public Text scoreText;
 
@@ -32,8 +32,8 @@ public class ArmouredEnemy : MonoBehaviour
         }
         if (eHealth < 1)
         {
-            Destroy(col.gameObject);
-            Scoring.totalScore = Scoring.totalScore + 5;
+            Destroy(this.gameObject);
+            Scoring.totalScore = Scoring.totalScore + 3;
             scoreText.text = "Score: " + Scoring.totalScore;
         }
 

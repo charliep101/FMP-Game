@@ -42,5 +42,10 @@ public class PHealth : MonoBehaviour
         {
             TakeDamage(1);
         }
+
+       else if (collision.tag == "AEnemy")
+        {
+            TakeDamage(1);
+        }
     }
 }

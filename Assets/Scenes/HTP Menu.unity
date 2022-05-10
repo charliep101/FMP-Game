@@ -1059,9 +1059,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Use WASD to move, the mouse to aim and click to shoot. There are two types
-    of zombies you need to kill, red shirt zombies and purple shirt zombies. Watch
-    out for the purple zombies they are faster than the reds!
+  m_text: ' There are three types of zombies you need to kill: red shirt zombies,
+    purple shirt zombies and armored zombies. Armored zombies are slower than the
+    others however they have more health and you get extra points for killing them.
+    Use WASD to move, the mouse to aim and click to shoot'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
