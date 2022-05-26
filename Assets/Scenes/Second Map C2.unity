@@ -441,6 +441,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1673436414393133104, guid: 017faf3e71cd2b84d84c6cc6b3d4cbaf,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 975114413}
+    - target: {fileID: 2020584635270880218, guid: 017faf3e71cd2b84d84c6cc6b3d4cbaf,
+        type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1753507515}
     - target: {fileID: 5180153742368550110, guid: 017faf3e71cd2b84d84c6cc6b3d4cbaf,
         type: 3}
       propertyPath: m_RootOrder
@@ -86672,6 +86682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1157895250479497313, guid: 03b2c2e4d9e51b54c950334b8cb9c186, type: 3}
+    - {fileID: 1157895250479497312, guid: 03b2c2e4d9e51b54c950334b8cb9c186, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 03b2c2e4d9e51b54c950334b8cb9c186, type: 3}
 --- !u!1001 &1385845739
 PrefabInstance:
@@ -86952,6 +86963,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!70 &1597350357
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597350353}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.11795139, y: 0.9162617}
+  m_Size: {x: 2.3169513, y: 5.187847}
+  m_Direction: 0
 --- !u!1 &1741960370
 GameObject:
   m_ObjectHideFlags: 0
@@ -89821,6 +89848,21 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1597350354}
+    - target: {fileID: 4401741680080536526, guid: e1e2eda30982f1545b1ac87aee412f98,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401741680080536526, guid: e1e2eda30982f1545b1ac87aee412f98,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401741680080536526, guid: e1e2eda30982f1545b1ac87aee412f98,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4401741680080536526, guid: e1e2eda30982f1545b1ac87aee412f98,
         type: 3}
       propertyPath: m_FontData.m_BestFit
