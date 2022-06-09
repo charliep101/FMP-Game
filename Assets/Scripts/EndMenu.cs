@@ -14,7 +14,7 @@ public class EndMenu : MonoBehaviour
 
     public void BackToMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 9);
+        SceneManager.LoadScene(0);
         Scoring.totalScore = Scoring.totalScore = 0;
 
     }
